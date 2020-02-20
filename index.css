@@ -14,12 +14,26 @@ head{
 body{
     margin: 0; 
     width: 100%;
+    background-color: #293134;
+    color: var(--main_font_color);
+}
+
+#bakround{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url(./bacroundimg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7px); 
+    z-index: -1;
 }
 
 p{
     width: var(--content_widh);
     word-break: break-all;
 }
+
 
 #navbar {
     overflow: hidden;
@@ -45,6 +59,7 @@ p{
     top: 0;
     width: 100%;
 }
+
 
 .content_bloc * {
     margin: 0;
