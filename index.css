@@ -1,9 +1,9 @@
 :root{
     --main_color:rgb(38, 0, 255) ;
-    --acsent_color:rgb(37, 37, 37);
+    --acsent_color:rgb(51, 51, 51);
     --main_font_color: rgb(231, 213, 213);
     --navibar_heigth: 5% ;
-    --content_bacrownd_color:rgb(224, 221, 255);
+    --content_bacrownd_color:rgba(21, 0, 255, 0);
 
     --content_widh:75%;
 }
@@ -59,7 +59,7 @@ p{
 .content_bloc{
     height: 100%;
     width: 100%;
-    background-color: var(--content_bacrownd_color);
+   /* background-color: var(--content_bacrownd_color);*/
 }
 
 .content_bloc *{
@@ -80,14 +80,15 @@ p{
 
 #links a{
     border-style: outset;
+    color: var(--main_font_color);
     border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.43);
+    background-color: rgba(255, 255, 255, 0.048);
     padding: 4px;
 }
 
 #links a:hover{
     border-style: inset;
-    background-color: rgba(0, 0, 0, 0.43);
+    background-color: rgba(0, 0, 0, 0.048);
     padding: 4px;
  }
 
