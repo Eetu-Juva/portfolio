@@ -109,4 +109,18 @@ p{
     padding: 4px;
  }
 
+ #about_content{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+
+#about_content_bloks{
+    padding: 10px;
+    background-color: green;
+    width: 47%;
+}
+
+
+
 
