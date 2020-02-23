@@ -120,6 +120,17 @@ p{
     width: 47%;
 }
 
+#skils_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#skils_content_bloc{
+    padding: 10px;
+    width: 47%;
+}
+
 
 
 
