@@ -6,7 +6,9 @@
     --content_bacrownd_color:rgba(21, 0, 255, 0);
 
     --content_widh:75%;
+    scroll-behavior: smooth;
 }
+
 head{
     width: 100%;
 }
