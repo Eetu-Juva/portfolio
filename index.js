@@ -1,14 +1,35 @@
+window.onload = function(){this.text_spasing_canger_init();}
 
+var initspasing;
+var maxspasing;
+var direct;
 
+function text_spasing_canger_init(){
+  var element = document.getElementById("lable1");
+  var style = window.getComputedStyle(element);
+  initspasing = parseInt( style.getPropertyValue("letter-spacing"))
+  maxspasing = initspasing + 100;
+  direct = 1;
+  
+  setInterval(text_spasing_canger , 40);
 
-function text_spasing_canger(){
-    var element = document.getElementById("lable");
-    var style = window.getComputedStyle(element);
-    var initspasing = parseInt( style.getPropertyValue("letter-spacing"))
-    var maxspasing = initspasing + 40;
-  // while(1){
-  //  for(;)
-  // }
-  console.log(maxspasing + "px");
-  console.log(initspasing +"px");
+  //console.log(maxspasing + "px");
+  //console.log(initspasing +"px");
+}
+
+function text_spasing_canger() {
+  var element = document.getElementById("lable1");
+  var style = window.getComputedStyle(element);
+  var curent_text_spase = parseInt(style.getPropertyValue("letter-spacing"))
+  
+  if (curent_text_spase >= maxspasing && direct === 1) {
+    direct = -1;
+  }
+  
+  if (curent_text_spase <= initspasing && direct === -1) {
+    direct = 1;
+  }
+  document.getElementById("lable1").style.letterSpacing  = (curent_text_spase + direct) + "px";
+  document.getElementById("lable2").style.letterSpacing  = (curent_text_spase + direct) + "px";
+  //console.log((curent_text_spase + direct) + "px");
 }
