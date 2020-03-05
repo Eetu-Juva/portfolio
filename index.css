@@ -7,6 +7,8 @@
 
     --content_widh:75%;
     scroll-behavior: smooth;
+
+
 }
 
 
@@ -45,6 +47,7 @@ p{
     background-color: var(--acsent_color);
     text-align: center;
     box-shadow: 0 5px 5px rgba(56, 56, 56, 0.658);
+    letter-spacing: 0.5px;
 }
 
 #navbar a {
@@ -73,7 +76,7 @@ p{
 height: 0;
 z-index: -999;
 position: relative;
-top:-50px;
+top:-40px;
 }
 
 .content_bloc{
@@ -152,6 +155,7 @@ top:-50px;
     width: 47%;
     border-style: inset;
     background-color: rgba(0, 0, 0, 0.048);
+    font-size: 120%;
 }
 
 
