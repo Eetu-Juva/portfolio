@@ -9,6 +9,7 @@
     scroll-behavior: smooth;
 
 
+    --nor_of_navibaar_element:3;
 }
 
 
@@ -55,9 +56,23 @@ p{
     display: block;
     color: var(--main_font_color);
     text-align: center;
-    padding-left: 14px;
-    padding-top: 4px;
+    width: calc(calc(100% - 3%) / var(--nor_of_navibaar_element));
+    
+    margin: calc( 2% / calc(var(--nor_of_navibaar_element) * 2));
+    margin-top: 9px;
+    padding: 0;
     text-decoration: none;
+}
+
+.homelink{
+    border-style: outset;
+    border-width: 0.5%;
+    margin-top: 5px !important;
+    background-color: rgba(255, 255, 255, 0.031);
+}
+
+.homelink:hover{
+    background-color: rgba(0, 0, 0, 0.031);
 }
 
 .sticky {
