@@ -1,4 +1,7 @@
 window.onload = function(){this.text_spasing_canger_init();}
+window.onload = function(){
+  this.text_spasing_canger_init();
+}
 
 var initspasing;
 var maxspasing;
