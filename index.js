@@ -1,6 +1,6 @@
-window.onload = function(){this.text_spasing_canger_init();}
 window.onload = function(){
   this.text_spasing_canger_init();
+  this.type_efect_init()
 }
 
 var initspasing;
