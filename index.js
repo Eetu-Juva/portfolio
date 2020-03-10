@@ -27,6 +27,29 @@ function blink_blink_cursor(element){
       element.innerHTML = txt + cursor;
     }
 }
+
+function caracter_add(element, textobject){
+  var curentext = element.innerHTML;
+  var has_cursor=0;
+
+  
+  if(cursor == curentext.charAt(curentext.length -1)){has_cursor = 1;curentext = curentext.slice(0, curentext.length -1);}
+
+  if (textobject[1] == 0) {
+
+    if(curentext.length == textobject[0].length){textobject[1]=1;return}
+    curentext = curentext + textobject[0].charAt(curentext.length);
+  }
+  else {
+
+    if(curentext.length == 0){textobject[1]=0;return}
+    curentext = curentext.slice(0, curentext.length -1);
+  }
+
+  if(has_cursor){curentext = curentext + cursor;}
+  element.innerHTML = curentext;
+}
+
 function text_spasing_canger_init(){
   var element = document.getElementById("lable1");
   var style = window.getComputedStyle(element);
