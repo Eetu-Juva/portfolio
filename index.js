@@ -18,6 +18,15 @@ function type_efect_init(){
    setInterval(caracter_add,100,element,texts_to_type.my_word);
 }
 
+function blink_blink_cursor(element){
+    var txt = element.innerHTML;
+    if(cursor === txt.charAt(txt.length -1)){
+      element.innerHTML = txt.slice(0, txt.length -1);
+    }
+    else{
+      element.innerHTML = txt + cursor;
+    }
+}
 function text_spasing_canger_init(){
   var element = document.getElementById("lable1");
   var style = window.getComputedStyle(element);
