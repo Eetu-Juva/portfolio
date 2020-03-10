@@ -6,6 +6,10 @@ window.onload = function(){
 var initspasing;
 var maxspasing;
 var direct;
+var cursor= "_";
+
+var texts_to_type = {"my_word": ["I probably should put something here",1]}
+
 
 function text_spasing_canger_init(){
   var element = document.getElementById("lable1");
