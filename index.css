@@ -66,8 +66,8 @@ p{
 
 .homelink{
     border-style: outset;
-    border-width: 0.5%;
-    margin-top: 5px !important;
+    border-width: 2px;
+    margin-top: 6px !important;
     background-color: rgba(255, 255, 255, 0.031);
 }
 
