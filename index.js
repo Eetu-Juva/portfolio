@@ -10,6 +10,13 @@ var cursor= "_";
 
 var texts_to_type = {"my_word": ["I probably should put something here",1]}
 
+function type_efect_init(){
+   element = document.getElementById("text_type_efect1");
+   element.innerHTML = ""
+
+   setInterval(blink_blink_cursor,500,element);
+   setInterval(caracter_add,100,element,texts_to_type.my_word);
+}
 
 function text_spasing_canger_init(){
   var element = document.getElementById("lable1");
