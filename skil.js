@@ -16,6 +16,26 @@ window.onload = function(){
 
     animate_init('skil_fi',95);
     animate_init('skil_en',75);
+
+
+    animate_init('skil_js1',65);
+    animate_init('skil_py1',42);
+    animate_init('skil_c#1',35);
+    animate_init('skil_jav1',30);
+
+    animate_init('skil_c1',75);
+    animate_init('skil_c++1',87);
+    animate_init('skil_asm1',10);
+
+    animate_init('skil_lin1',43);
+    animate_init('skil_win1',44);
+
+    animate_init('skil_dig1',76);
+    animate_init('skil_ana1',30);
+
+    animate_init('skil_fi1',95);
+    animate_init('skil_en1',75);
+
     this.init();
 }
 
