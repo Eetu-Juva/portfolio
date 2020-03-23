@@ -1,0 +1,27 @@
+#my_skils_fi *{
+    font-size: 88%;
+    padding: 0;
+    text-align: left;
+}
+
+#my_skils_fi div{
+    height: 2%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffcfcf;
+}
+
+#my_skils_fi div div{
+    height: 100%;
+    border: none;
+    background-color: green;
+    font-size: 50%;
+}
+
+#my_skils_fi dd{
+    margin-left: 40px;
+}
+
+.skil_base div{
+    width: 0%;
+}
