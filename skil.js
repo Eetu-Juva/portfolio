@@ -16,6 +16,7 @@ window.onload = function(){
 
     animate_init('skil_fi',95);
     animate_init('skil_en',75);
+    this.init();
 }
 
 function animate_init(elemid,finalw) {  

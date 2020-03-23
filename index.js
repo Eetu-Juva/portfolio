@@ -1,4 +1,4 @@
-window.onload = function(){
+function init(){
   this.text_spasing_canger_init();
   this.type_efect_init()
 }
