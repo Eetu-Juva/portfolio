@@ -14,7 +14,7 @@
 #my_skils_fi div div{
     height: 100%;
     border: none;
-    background-color: green;
+    background-color: var(--skil_progres_color);
     font-size: 50%;
 }
 
@@ -38,7 +38,7 @@
 #my_skils_en div div{
     height: 100%;
     border: none;
-    background-color: green;
+    background-color: var(--skil_progres_color);
     font-size: 50%;
 }
 
