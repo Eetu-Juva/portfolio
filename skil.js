@@ -1,40 +1,46 @@
+var skilsarr = [
+  ['skil_js',65],
+  ['skil_py',42],
+  ['skil_c#',35],
+  ['skil_jav',30],
+  
+  ['skil_c',75],
+  ['skil_c++',87],
+  ['skil_asm',10],
+  
+  ['skil_lin',43],
+  ['skil_win',44],
+  
+  ['skil_dig',76],
+  ['skil_ana',30],
+  
+  ['skil_fi',95],
+  ['skil_en',75],
+  
+  
+  ['skil_js1',65],
+  ['skil_py1',42],
+  ['skil_c#1',35],
+  ['skil_jav1',30],
+
+  ['skil_c1',75],
+  ['skil_c++1',87],
+  ['skil_asm1',10],
+  
+  ['skil_lin1',43],
+  ['skil_win1',44],
+  
+  ['skil_dig1',76],
+  ['skil_ana1',30],
+  
+  ['skil_fi1',95],
+  ['skil_en1',75]
+];
+
 window.onload = function(){
-    animate_init('skil_js',65);
-    animate_init('skil_py',42);
-    animate_init('skil_c#',35);
-    animate_init('skil_jav',30);
-
-    animate_init('skil_c',75);
-    animate_init('skil_c++',87);
-    animate_init('skil_asm',10);
-
-    animate_init('skil_lin',43);
-    animate_init('skil_win',44);
-
-    animate_init('skil_dig',76);
-    animate_init('skil_ana',30);
-
-    animate_init('skil_fi',95);
-    animate_init('skil_en',75);
-
-
-    animate_init('skil_js1',65);
-    animate_init('skil_py1',42);
-    animate_init('skil_c#1',35);
-    animate_init('skil_jav1',30);
-
-    animate_init('skil_c1',75);
-    animate_init('skil_c++1',87);
-    animate_init('skil_asm1',10);
-
-    animate_init('skil_lin1',43);
-    animate_init('skil_win1',44);
-
-    animate_init('skil_dig1',76);
-    animate_init('skil_ana1',30);
-
-    animate_init('skil_fi1',95);
-    animate_init('skil_en1',75);
+    for(var i=0;i<this.skilsarr.length;i++){
+      this.animate_init(this.skilsarr[i][0],this.skilsarr[i][1])
+    }
 
     this.init();
 }
