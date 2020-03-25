@@ -8,6 +8,7 @@
     --content_widh:75%;
     scroll-behavior: smooth;
 
+    --skil_progres_color: rgb(21, 153, 17);
 
     --nor_of_navibaar_element:3;
 }
