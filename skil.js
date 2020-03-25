@@ -48,7 +48,7 @@ window.onload = function(){
 function animate_init(elemid,finalw) {  
     var element = document.getElementById(elemid); 
     var width = element.style.width;
-    console.log("width");
+    //console.log("width");
     var id = setInterval(animate, 10,finalw);
   
     function animate(finalwidth) {
