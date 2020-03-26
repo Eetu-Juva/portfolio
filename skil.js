@@ -64,6 +64,16 @@ function animate_init(elemid,finalw) {
     }
     
 }
+
+function Generalised_Logistic(maximum,timestep){
+  var a=0;
+  var C=1;
+  var Q=5;
+  var B=0.2;
+
+  var res = a+( (maximum-a) / Math.pow( (C + Q*Math.exp(-B*timestep)),1/0.1 ) );
+  return res;
+}
 /*
 skil_js
 skil_py
