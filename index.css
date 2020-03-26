@@ -10,7 +10,7 @@
 
     --skil_progres_color: rgb(21, 153, 17);
 
-    --nor_of_navibaar_element:3;
+    --nor_of_navibaar_element:4;
 }
 
 
@@ -153,7 +153,7 @@ top:-40px;
     color: rgb(167, 144, 250);
 }
 
-#lable1 , #lable2{
+#lable1 , #lable2 , #lable3{
     text-align: center;
     border-style: dashed;
     border-color: #698858;
