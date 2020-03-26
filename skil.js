@@ -38,11 +38,14 @@ var skilsarr = [
 ];
 
 window.onload = function(){
-    for(var i=0;i<this.skilsarr.length;i++){
-      this.animate_init(this.skilsarr[i][0],this.skilsarr[i][1])
-    }
+  this.animate_init();
+  this.init();
+}
 
-    this.init();
+function animate_init(){
+  for(var i=0;i<this.skilsarr.length;i++){
+    this.animate_setup(this.skilsarr[i][0],this.skilsarr[i][1])
+  }
 }
 
 function animate_init(elemid,finalw) {  
