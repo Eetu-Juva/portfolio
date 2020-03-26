@@ -50,18 +50,18 @@ function animate_init(){
 
 function animate_setup(elemid,finalw) {  
     var element = document.getElementById(elemid); 
-    var width = element.style.width;
+    var timestep = element.style.width;
     //console.log("width");
     var id = setInterval(animate, 10,finalw);
   
     function animate(finalwidth) {
   
-      if (width >= finalwidth) {
+      if (timestep >= 60) {
         clearInterval(id);
       } else {
-        width++; 
-        element.style.width = width + '%'; 
-        element.innerHTML = width * 1  + '%';
+        timestep++; 
+        element.style.width = Generalised_Logistic(finalwidth,timestep) + '%'; 
+        element.innerHTML = Math.round( Generalised_Logistic(finalwidth,timestep)) * 1  + '%';
       }
   
     }
