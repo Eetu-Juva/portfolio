@@ -77,5 +77,6 @@ function text_spasing_canger() {
   }
   document.getElementById("lable1").style.letterSpacing  = (curent_text_spase + direct) + "px";
   document.getElementById("lable2").style.letterSpacing  = (curent_text_spase + direct) + "px";
+  document.getElementById("lable3").style.letterSpacing  = (curent_text_spase + direct) + "px";
   //console.log((curent_text_spase + direct) + "px");
 }
