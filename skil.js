@@ -48,7 +48,7 @@ function animate_init(){
   }
 }
 
-function animate_init(elemid,finalw) {  
+function animate_setup(elemid,finalw) {  
     var element = document.getElementById(elemid); 
     var width = element.style.width;
     //console.log("width");
