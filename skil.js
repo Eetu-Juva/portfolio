@@ -37,10 +37,7 @@ var skilsarr = [
   ['skil_en1',75]
 ];
 
-window.onload = function(){
-  this.animate_init();
-  this.init();
-}
+
 
 function animate_init(){
   for(var i=0;i<this.skilsarr.length;i++){

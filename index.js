@@ -1,3 +1,9 @@
+window.onload = function(){
+  // this.animate_init();
+  // this.init();
+ }
+
+
 function init(){
   this.text_spasing_canger_init();
   this.type_efect_init()
