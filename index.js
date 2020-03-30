@@ -1,6 +1,6 @@
 window.onload = function(){
-  // this.animate_init();
-  // this.init();
+  this.animate_init();
+  this.init();
  }
 
 
