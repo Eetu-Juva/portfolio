@@ -120,7 +120,7 @@ top:-40px;
     margin-right: calc(calc(100% - 100px) / 2); 
 }
 
-#links a{
+.links a{
     border-style: outset;
     color: var(--main_font_color);
     border-radius: 4px;
@@ -128,27 +128,27 @@ top:-40px;
     padding: 4px;
 }
 
-#links a:hover{
+.links a:hover{
     border-style: inset;
     background-color: rgba(0, 0, 0, 0.048);
     padding: 4px;
 }
 
-#about_content{
+.comon_content{
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
      
 }
 
-#about_content_bloks{
+.comon_content_bloc{
     padding: 10px;
     width: 47%;
     border-style: inset;
     background-color: rgba(0, 0, 0, 0.048);
 }
 
-#about_content_bloks a{
+.about_content_bloks a{
     padding: 0;
     color: rgb(167, 144, 250);
 }
@@ -162,17 +162,7 @@ top:-40px;
     letter-spacing: 1px;
 }
 
-#skils_content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-#skils_content_bloc{
-    padding: 10px;
-    width: 47%;
-    border-style: inset;
-    background-color: rgba(0, 0, 0, 0.048);
+.skils_content_bloc{
     font-size: 120%;
 }
 
