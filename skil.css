@@ -1,17 +1,17 @@
-#my_skils_fi *{
+.my_skils *{
     font-size: 88%;
     padding: 0;
     text-align: left;
 }
 
-#my_skils_fi div{
+.my_skils div{
     height: 2%;
     border-style: solid;
     border-width: 1px;
     border-color: #ffcfcf;
 }
 
-#my_skils_fi div div{
+.my_skils div div{
     height: 100%;
     border: none;
     background-color: var(--skil_progres_color);
@@ -20,26 +20,6 @@
 
 #my_skils_en dd{
     margin-left: 40px;
-}
-
-#my_skils_en *{
-    font-size: 88%;
-    padding: 0;
-    text-align: left;
-}
-
-#my_skils_en div{
-    height: 2%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ffcfcf;
-}
-
-#my_skils_en div div{
-    height: 100%;
-    border: none;
-    background-color: var(--skil_progres_color);
-    font-size: 50%;
 }
 
 #my_skils_en dd{
