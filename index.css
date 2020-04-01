@@ -138,6 +138,7 @@ top:-40px;
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
+     flex-wrap: wrap;
      
 }
 
@@ -146,6 +147,19 @@ top:-40px;
     width: 47%;
     border-style: inset;
     background-color: rgba(0, 0, 0, 0.048);
+}
+
+.portfolio_content_class div{
+    padding: 0;
+    border-style: inset;
+    width: 47%;
+    height: 24%;
+}
+
+.portfolio_content_class div p{
+    padding: 1%;
+    height: auto;
+    width: auto;
 }
 
 .about_content_bloks a{
